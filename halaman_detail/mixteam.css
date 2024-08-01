@@ -1,0 +1,113 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul li a {
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	font-size: 17px;
+}
+body {
+	background: url('../wallpaper/background_legend.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+/*jumbotron*/
+.jumbotron {
+    text-align: center;
+    height: 550px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.jumbotron h1 {
+    padding-top: 130px;
+    font-size: 5vw; 
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron button {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    padding: 15px;
+    background: rgb(255, 176, 18);
+    border-color: rgb(255, 176, 18);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron button:hover {
+    background: rgb(252, 183, 71);
+    border-color: rgb(252, 183, 71);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Konten */
+.konten {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: -130px auto 50px;
+    border-radius: 4%;
+    overflow: hidden;
+    max-width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.konten h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+
+.konten ul li,
+.konten ol li {
+    list-style: none;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .jumbotron h1 {
+        font-size: 65px;
+    }
+    .jumbotron button {
+        padding: 13px;
+        font-size: 23px;
+    }
+    .konten {
+        border-radius: 0%;
+    }
+    .konten h3 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .konten ul li {
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .konten ol li {
+        font-size: 19px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+    .jumbotron h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+}

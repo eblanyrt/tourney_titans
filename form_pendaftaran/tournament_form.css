@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li a {
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	font-size: 17px;
+}
+body {
+	background: url('../wallpaper/background_legend.jpg');
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Header*/
+.header {
+	background-color: rgba(0, 0, 0, 0);
+	padding-top: 60px;
+    margin-top: 40px;
+}
+
+
+/*Konten*/
+.konten table td {
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 720px) {
+        .header img {
+          width: 100%;
+        }
+		.konten {
+			background-color: white;
+			margin: 70px;
+			padding: 50px;
+		}
+        .konten table td {
+        	font-size: 13px;
+			padding: 24px;
+			padding-left: 0.1px;
+			padding-right: 0.1px;
+		}
+
+      }
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+		.header img {
+			height: 400px;
+			width: 400px;
+		}
+		.konten {
+			background-color: white;
+			margin: 80px;
+			padding: 50px;
+		}
+        .konten table td {
+        	font-size: 18px;
+			padding: 22px;
+			padding-left: 0.1px;
+			padding-right: 0.1px;
+		}
+   	}
+@media screen and (min-width: 1201px) {
+		.header img {
+			height: 500px;
+			width: 500px;
+		}
+		.konten {
+			background-color: white;
+			margin: 20px 250px 20px 250px;
+			padding: 50px;
+			border-radius: 2.5%
+		}
+	}

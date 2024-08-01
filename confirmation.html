@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Judul Website  -->
+   <title>Tourney Titans</title>
+
+   <!-- Mengubah Icon Website -->
+   <link rel="shortcut icon" href="logo.png">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+
+   <!-- FontAwesome -->
+   <link rel="stylesheet" type="text/css" href="https://kit.fontawesome.com/398b3a9007.js" crossorigin="anonymous">
+
+   <!-- Animate on Scroll -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- Link untuk fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="invoice">
+        <table align="center" cellspacing="4" cellpadding="5">
+            <tr>
+                <td><img src="data:image/png;base64,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" alt="" width="80" height="80"></td>
+                <td><h1>Receipt</h1></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h3>**************************************************</h3></td>
+            </tr>
+            <tr>
+                <td><label for="">Nama Lengkap</label></td>
+                <td><span id="fullName"></span></td>
+            </tr>
+            <tr>
+                <td><label for="">Alamat Email</label></td>
+                <td><span id="email"></span></td>
+            </tr>
+            <tr>
+                <td><label>Turnamen yang Diikuti</label></td>
+                <td><span id="tournament"></span></td>
+            </tr>
+            <tr>
+                <td><label for="">Metode Pembayaran</label></td>
+                <td><span id="paymentMethod"></span></td>
+            </tr>
+            <tr>
+                <td><label for="">Nama Pengirim</label></td>
+                <td><span id="nama_pengirim"></span>
+                </td>
+            </tr>
+            <tr id="t_k">
+                <td><label for="">Nomor Rekening</label></td>
+                <td><span id="nomor_rekening"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Jumlah</label></td>
+                <td><span id="amount"></span></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+        <div class="d-inline-block" style="margin: auto;">
+            <button onclick="delLocalStorage()" class="btn mx-auto" style="background-color: rgb(255, 176, 18); font-weight: bold; color: white;">Kembali ke Home</button>
+            <a href="javascript:void(0)" class="donlot btn mx-auto" style="background-color: #ff1748; font-weight: bold; color: white;">Download PDF</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Retrieve data from localStorage
+            var fullName = localStorage.getItem('fullName');
+            var email = localStorage.getItem('email');
+            var tournament = localStorage.getItem('tournament');
+            var paymentMethod = localStorage.getItem('paymentMethod');
+            var nama_pengirim = localStorage.getItem('nama_pengirim');
+            var nomor_rekening = localStorage.getItem('nomor_rekening');
+            var amount = localStorage.getItem('amount');
+        
+            // Set the data in the confirmation page
+            document.getElementById('fullName').textContent = fullName;
+            document.getElementById('email').textContent = email;
+            document.getElementById('tournament').textContent = tournament;
+            document.getElementById('paymentMethod').textContent = paymentMethod;
+            document.getElementById('nama_pengirim').textContent = nama_pengirim;
+            document.getElementById('nomor_rekening').textContent = nomor_rekening;
+            document.getElementById('amount').textContent = amount;
+        });
+        </script>
+        
+        <!-- Script yang dibutuhkan untuk mendownload HTML menjadi PDF -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jspdf.debug.js"></script>
+        <script src="js/html2canvas.min.js"></script>
+        <script src="js/html2pdf.min.js"></script>
+
+        <!-- Script untuk mendownload HTML menjadi PDF -->
+        <script>
+            const options = {
+                margin: 0.5,
+                filename: getFileName(), // Panggil fungsi getFileName() untuk mendapatkan waktu saat ini
+                image: { 
+                    type: 'jpeg', 
+                    quality: 500
+                },
+                html2canvas: { 
+                    scale: 4 
+                },
+                jsPDF: { 
+                    unit: 'in', 
+                    format: 'letter', 
+                    orientation: 'portrait' 
+                }
+            }
+        
+            $('.donlot').click(function(e){
+                e.preventDefault();
+                const element = document.getElementById('invoice');
+                html2pdf().from(element).set(options).save();
+            });
+        
+            function getFileName() {
+                // Dapatkan waktu saat ini
+                const now = new Date();
+                // Format nama file, misalnya: invoice_YYYYMMDD_HHMMSS.pdf
+                const fileName = 'invoice_' +
+                    now.getFullYear() +
+                    padNumber(now.getMonth() + 1) +
+                    padNumber(now.getDate()) + '_' +
+                    padNumber(now.getHours()) +
+                    padNumber(now.getMinutes()) +
+                    padNumber(now.getSeconds()) + '.pdf';
+                return fileName;
+            }
+        
+            function padNumber(num) {
+                // Fungsi untuk menambahkan nol di depan angka jika kurang dari 10
+                return num < 10 ? '0' + num : num;
+            }
+        </script>
+        
+
+        <!-- Script untuk kembali ke home, lalu menghapus localStorage -->
+        <script>
+            function delLocalStorage() {
+                localStorage.clear();
+                window.location.href = "home.html";
+            }
+        </script>
+</body>
+</html>

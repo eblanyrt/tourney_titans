@@ -1,0 +1,114 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url('wallpaper/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul li a {
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	font-size: 17px;
+
+}
+
+/*Jumbotron*/
+.jumbotron {
+	text-align: center;
+	height: 225px;
+	background: url('wallpaper/jumbotron_tournament.jpg');
+	color: white;
+	padding-top: 100px;
+	font-family: 'Arvo', serif;
+	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;
+}
+.jumbotron h1 {
+	font-size: 11vh;
+}
+
+/*Konten*/
+.konten {
+	background-color: white;
+	margin: 35px 175px 35px 175px;
+	border-radius: 1.5%;
+}
+.row {
+	padding: 10px;
+    
+}
+.row img {
+	height: 330px;
+	width: 330px;
+}
+.row h5 {
+	font-size: 5.8vh;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.row p {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+}
+.row .btn {
+	margin-top: 12px;
+	background: rgb(255, 176, 18);
+	border-color: rgb(255, 176, 18);
+	font-family: 'Josefin Sans', sans-serif;
+}
+.row .btn:hover {
+	background: #ff1748;
+	border-color: #ff1748;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.card {
+	border-style: none;
+}
+
+
+@media screen and (max-width: 600px) {
+	.jumbotron h1 {
+		font-size: 55px;
+	}
+	.konten {
+		margin: 10px 20px 10px 20px;
+		border-radius: 0%;
+	}
+	.row img {
+		height: 290px;
+		width: 290px;
+	}
+	.row h5 {
+		font-size: 40px;
+		text-align: center;
+	}
+	.row p {
+		font-size: 18px;
+		text-align: center;
+	}
+	.row .btn {
+		display: grid;
+    	place-items: center;
+	}
+
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+	.row img {
+		height: 250px;
+		width: 250px;
+	}
+	.row h5 {
+		font-size: 30px;
+	}
+	.row p {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 1201px) {
+
+}

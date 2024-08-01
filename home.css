@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li a {
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	font-size: 17px;
+
+}
+nav a#content {
+	color: rgb(227,227,227);
+}
+
+/*Banner 1*/
+.banner1 {
+	text-align: center;
+	height: 750px;
+	background: url('wallpaper/jumbotron1.jpg');
+	background-size: cover;	
+	padding-top: 230px;
+}
+.banner1 h1 {
+	color: white;  
+	font-family: 'Staatliches', cursive; 
+	font-weight: bold; 
+	font-size: 42px;
+	margin-top: 20px;
+}
+
+
+/*Banner 2*/
+.banner2 {
+	text-align: center;
+	height: 790px;
+	background: url('wallpaper/jumbotron2.jpg');
+	background-size: cover;
+	padding-top: 200px;
+}
+.banner2 .row {
+	margin-top: 70px;
+}
+.banner2 h1 {
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 40px;
+}
+.banner2 p {
+	font-size: 22px;
+	text-align: justify;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*Banner 3*/
+.banner3 {
+	height: 750px;
+	background: url('wallpaper/jumbotron3.jpg');
+	background-size: cover;
+	padding-top: 110px;
+}
+.banner3 .titel {
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 32px;
+}
+.banner3 .titel2 {
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 38px;
+	margin-bottom: 110px;
+}
+.banner3 .titel3 p {
+	font-size: 30px;
+	text-align: left;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.banner3 .list p {
+	font-size: 23px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 0px;
+}
+.banner3 a img {
+	height: 300px; 
+	width: 300px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.banner3 .card-text {
+	color: white;
+}
+.banner3 button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 80px;
+	background: rgb(255, 176, 18);
+	border-color: rgb(255, 176, 18);
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.banner3 button:hover {
+	background: #ff1748;
+	border-color: #ff1748;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Footer*/
+.footer {
+	background: url('wallpaper/footer.jfif');
+}
+.footer h1 {
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footer p {
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Alfa Slab One', cursive;
+}
+.footer button {
+	margin-top: 4px;
+	margin-bottom: 100px;
+	background: rgb(255, 176, 18);
+	border-color: rgb(255, 176, 18);
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footer button:hover {
+	background: #ff1748;
+	border-color: #ff1748;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+	.banner2 h1 {
+		font-size: 40px;
+		margin-top: -90px;
+	}
+	.banner2 img {
+		height: 165px;
+		width: 165px;
+		margin-top: -50px;
+		margin-bottom: 45px;
+	}
+	.banner2 p {
+		font-size: 20px;
+	}
+
+	.banner3 .titel {
+		font-size: 28px;
+		margin-top: -85px;
+	}
+	.banner3 .titel2 {
+		font-size: 28px;
+		margin-top: 5px;
+	}
+	.banner3 .titel3 p {
+		font-size: 25px;
+		text-align: center;
+		margin-top: -38px;
+	}
+	.banner3 .list p {
+		font-size: 19px;
+		text-align: center;
+	}
+	.banner3 a img {
+		height: 220px; 
+		width: 220px;
+		margin-top: 30px;
+		margin-left: 121px;
+	}
+	.banner3 button {
+		font-size: 15px;
+		margin-left: 159px;
+	}
+
+}
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+	.banner2 h1 {
+		font-size: 40px;
+		margin-top: -60px;
+	}
+	.banner2 img {
+		height: 180px;
+		width: 180px;
+		margin-top: 10px;
+
+	}
+	.banner2 p {
+		font-size: 22px;
+	}
+
+	.banner3 .col-md-9 {
+		margin-top: 50px;
+		margin-left: -100px;
+	}
+	.banner3 .titel {
+		font-size: 35px;
+		margin-top: -75px;
+	}
+	.banner3 .titel2 {
+		font-size: 35px;
+		margin-top: 5px;
+	}
+	.banner3 .titel3 p {
+		font-size: 30px;
+		text-align: center;
+		margin-top: -9px;
+	}
+	.banner3 .list p {
+		font-size: 21px;
+		text-align: center;
+	}
+	.banner3 a img {
+		height: 230px; 
+		width: 230px;
+		margin-top: 30px;
+	}
+	.banner3 button {
+		font-size: 18px;
+		margin-left: 50px;
+		margin-right: -50px;
+
+	}
+}
+@media screen and (min-width: 1201px) {
+	.banner3 .titel3 p {
+		margin-top: 2px;
+	}
+}

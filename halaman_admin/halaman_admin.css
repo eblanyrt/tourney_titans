@@ -1,0 +1,56 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url('../wallpaper/background_admin.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+nav h1 {
+	text-align: left;
+	color: white;
+}
+
+/*GAMBAR*/
+.row {
+	margin-top: 55px;
+}
+.col-sm-6 img {
+	height: 290px;
+	width: 290px;
+	display: block; 
+	margin: auto;
+}
+.col-sm-6 p {
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 720px) {
+	.col-sm-6 img {
+		height: 290px;
+		width: 290px;
+	}
+	.col-sm-6 p {
+		font-size: 26px;
+	}
+}
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+	.col-sm-6 img {
+		height: 250px;
+		width: 250px;
+	}
+	.col-sm-6 p {
+		font-size: 23px;
+	}
+}
+@media screen and (min-width: 1201px) {
+
+}
